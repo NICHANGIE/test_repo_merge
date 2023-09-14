@@ -1,0 +1,157 @@
+.read-container {
+  background-color: white;
+  padding: 20px;
+}
+
+.image-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.patient-image {
+  width: 350px;
+  height: 400px;
+  margin-right: 5px;
+} 
+
+.donationlist-image {
+  width: 100px;
+  height: 70px;
+  margin-right: 5px;
+}
+
+.seemorelink{
+  color: #4DE14A;
+}
+
+.goto {
+  width: 3px;
+  height: 3px;
+  margin-right: 5px;
+}
+
+.patient-info {
+  flex: 1;
+  margin-left: 5px;
+  width: 500px;
+}
+
+.patient-heading {
+  font-weight: bold;
+  color: black;
+}
+
+.patient-description {
+  color: black;
+}
+/*   
+ .donate-form {
+  background-color: #d5f4d5;
+  padding: 20px;
+  margin-top: 20px;
+  width: 200px;
+  height: 300px;
+  border-radius: 7.5px;
+} 
+ */
+/* Add styling for progress bar and form inputs in the donate-form section */
+.content {
+  flex: 1;
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+}
+/* 
+.progress-container {
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+/* }  */ */
+
+
+
+
+.progress-container {
+  margin-top: 20px;
+  background-color: #d5f4d5;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+
+ .sub-container {
+  margin-top: 20px;
+  background-color: #d5f4d5;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+}
+
+.sub-title {
+  font-family: "Inria Serif", serif;
+  margin-left: 10px;
+}
+
+.sub-content {
+  margin-top: 10px;
+  width: 500px;
+}
+
+
+
+
+/* Customize the styles as needed */
+.donate-form {
+text-align: center;
+/* Add any other styles for the container here */
+
+  background-color: #d5f4d5;
+  padding: 20px;
+  margin-top: 20px;
+  width: 235px;
+  height: 290px;
+  border-radius: 7.5px;
+
+
+}
+
+.donate-form-header {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 10px;
+font-weight: bold;
+}
+
+.share-icon {
+margin-left: 5px;
+width: 20px;
+height: 20px;
+/* Add any other styles for the share icon here */
+}
+
+
+
+.input-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 10px;
+}
+
+.email-input {
+border-radius: 15px;
+padding: 10px;
+width: 200px;
+/* Add any other styles for the input field here */
+}
+
+.donate-button {
+background-color: #4ec14c;
+color: white;
+border: none;
+border-radius: 15px;
+padding: 10px 20px;
+cursor: pointer;
+/* Add any other styles for the donate button here */
+}

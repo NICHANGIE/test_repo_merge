@@ -1,0 +1,362 @@
+* Global styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Header styles */
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: #000000;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    height:10px;
+  }
+  .header-content {
+    display: flex;
+  align-items: center;
+  }
+  
+  .logo-name {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 40px;
+    height: 10px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .notification-icon,
+  .profile-icon {
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  /* Sidebar styles */
+  
+  .sidebar {
+    background-color: #d5f4d5;
+    /* height: 150vh; */
+    height: 182vh;
+    width: 220px;
+    /* padding: 20px 0; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar-option {
+    margin: 15px 0;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout-option {
+    margin-top: auto;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  /* Body styles */
+  
+  .body {
+    padding: 20px;
+  }
+  
+  /* .search-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-text {
+    text-align: center;
+  }
+   */
+
+
+   /* .content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+   flex-direction: column;
+    width: 600px; 
+  } */
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .search-icon {
+    font-size: 18px;
+  }
+  
+  .welcome-text {
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Inria Serif", serif;
+    font-size: "32";
+  }
+/*   
+  .sub-container1 {
+    margin-top: 20px;
+    background-color: #d5f4d5;
+    padding: 10px;
+    width: 500px; 
+  } */
+  
+  /* .sub-container2 {
+    margin-top: 20px;
+    background-color: #d5f4d5;
+    padding: 10px;
+    width: 400px; 
+  }
+  .sub-container3 {
+    margin-top: 20px;
+    background-color: #d5f4d5;
+    padding: 10px;
+    width: 300px; 
+  } */
+  /* .sub-title {
+    font-family: "Inria Serif", serif;
+    margin-left: 10px;
+  }
+  
+  .sub-content {
+    margin-top: 10px;
+  }
+  
+  .sub-sub-container {
+    display: flex;
+    justify-content: center;
+  } */
+  .logopic{
+    height: 30px;
+    width: 30px;
+  }
+  .sub-sub-container {
+    display:flex;
+    /* justify-content: center; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #ffffff; */
+    padding: 5px 5px;
+    color: #000000;
+    /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  .addition-icon {
+    font-size: 40px;
+    padding-left: 80px;
+    padding-top: 60px;
+    /* margin: 0 10px; */
+  }
+
+  /* .progress-bar {
+    margin-bottom: 15px;
+  }
+  
+  .progress-label {
+    margin-bottom: 5px;
+  } */
+/*   
+  .progress-value {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .progress {
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-inner {
+    height: 100%;
+    width: 50%;
+    background-color: #4DE14A;
+  } */
+  
+  .donation-icon {
+    font-size: 24px;
+    float: right;
+  }
+
+  .donationlist-image1 {
+    width: 100px;
+    height: 70px;
+    margin-right: 5px;
+  }
+  .words{
+    margin-right:9px;
+  } 
+  .words2{
+    margin-right:9px;
+    color: #4DE14A;
+  } 
+  .donationlist-image2 {
+    width: 60px;
+    height: 40px;
+    margin-left: 150px;
+    margin-top: 5%;
+
+  }
+  
+  .user-dashboard {
+    display: flex;
+    height: 100vh; /* Optionally, set a specific height */
+  }
+  
+  .sidebar {
+    width: 250px; /* Adjust the width as needed */
+    background-color: #d5f4d5; /* Sidebar background color */
+    color: white; /* Text color for the sidebar */
+    height:flex;
+  }
+  
+  .sub-sub-sub-container1 {
+background-color:  #d5f4d5;
+height: 200px;
+width: 220px;
+border-radius: 7px;
+
+  }
+
+  .sub-sub-sub-container2{
+    background-color:  #d5f4d5;
+    height: 200px;
+    width: 220px;
+    border-radius: 7px; 
+  }
+
+  
+  .header {
+    background-color: #f0f0f0; /* Header background color */
+    padding: 10px;
+  }
+/*   
+  .content {
+    flex-grow: 1;
+    padding: 10px;
+  } */
+  
+  .content {
+    flex: 1;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .progress-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  } 
+
+   .sub-container {
+    margin-top: 20px;
+    background-color: #d5f4d5;
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+  }
+  
+  .sub-title {
+    font-family: "Inria Serif", serif;
+    margin-left: 10px;
+  }
+  
+  .sub-content {
+    margin-top: 10px;
+    width: 500px;
+  }
+  
+
+
+   .progress-bar {
+    margin-bottom: 15px;
+  }
+  .seemorelink{
+    color: #4DE14A;
+  }
+  .readmelink{
+    color: #4DE14A;
+  }
+
+  .progress-label {
+    margin-bottom: 5px;
+    margin-left: 3px;
+  }
+  
+  .progress-value {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-weight: bold;
+    margin-right: 3px;
+  }
+  
+  .progress {
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .progress-inner1 {
+    height: 100%;
+    width: 41%;
+    background-color: #4DE14A;
+  } 
+
+  .progress-inner2 {
+    height: 100%;
+    width: 57%;
+    background-color: #4DE14A;
+  }
+
+  .progress-inner3 {
+    height: 100%;
+    width: 68%;
+    background-color: #4DE14A;
+  }
+  
+  .startcampaignlink {
+    color: #d5f4d5;
+  }
